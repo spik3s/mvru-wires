@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom'
 
 import MainHeader from './components/MainHeader';
+import MainFooter from './components/MainFooter';
 import Homepage from './pages/Homepage';
 import AboutUs from './pages/AboutUs';
 import Capacity from './pages/Capacity';
@@ -21,9 +22,7 @@ const App = () => (
       <Route exact path="/capacity" component={Capacity} />
       <Route exact path="/impact" component={Impact} />
 
-      <footer className="container">
-        <p>&copy; Company 2017</p>
-      </footer>
+     <MainFooter />
     </div>
   </Router>
 );
