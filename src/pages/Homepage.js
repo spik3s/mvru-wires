@@ -30,7 +30,7 @@ const Homepage = (props) => {
                             <p>This is a template for a simple marketing or informational website. It includes a large callout called a
                    jumbotron and three supporting pieces of content. Use it as a starting point to create something more
                    unique.</p>
-                            <p><Link to="/" className="btn btn-primary btn-lg" role="button">Learn more &raquo;</Link></p>
+                            <p><Link to="/capacity" className="btn btn-primary btn-lg" role="button">Learn more &raquo;</Link></p>
                         </div>
                     </div>
                 </div>
@@ -130,13 +130,13 @@ const Homepage = (props) => {
                             </div>
                         </div> */}
 
-                        <ul className="list-news-grid">
+                        <ul className="list-news-grid ">
                             <li className="bg-warning list-news-grid__item list-news-grid__item--medium">
-                                <Link to="/" className="list-news-grid__link">
+                                <Link to="/" className="list-news-grid__link text-light">
                                     <div className="list-news-grid__img">
-                                        <img src="http://via.placeholder.com/600x400" alt="Featured News" className="img-thumbnail" />
+                                        <img src="https://placeimg.com/640/480/nature" alt="Featured News" className="img-thumbnail" />
                                     </div>
-                                    <span className="list-news-grid__info">
+                                    <span className="list-news-grid__info ">
                                         <span className="list-news-grid__type">News</span>
                                         <b><h4 className="display-4">Small but fast: a miniaturized origami-inspired...</h4></b>
                                         <i></i>
@@ -146,7 +146,7 @@ const Homepage = (props) => {
                             <li className="bg-info  list-news-grid__item list-news-grid__item--small">
                                 <Link to="/" className="list-news-grid__link">
                                     <div className="list-news-grid__img">
-                                        <img src="http://via.placeholder.com/300x200" alt="Featured News" className="img-thumbnail" />
+                                        <img src="https://placeimg.com/320/240/nature" alt="Featured News" className="img-thumbnail" />
                                     </div>
                                     <span className="list-news-grid__info">
                                         <span className="list-news-grid__type">News</span>
@@ -264,35 +264,6 @@ const Homepage = (props) => {
 
                 </div>
             </div>
-
-            {/* <div className="container">
-                <div className="row">
-                    <div className="col-md-4">
-                        <h2>Heading</h2>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-               mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
-               mollis euismod. Donec sed odio dui. </p>
-                        <p><a className="btn btn-secondary" role="button">View details &raquo;</a></p>
-                    </div>
-                    <div className="col-md-4">
-                        <h2>Heading</h2>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-               mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna
-               mollis euismod. Donec sed odio dui. </p>
-                        <p><a className="btn btn-secondary" role="button">View details &raquo;</a></p>
-                    </div>
-                    <div className="col-md-4">
-                        <h2>Heading</h2>
-                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
-               porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
-               ut fermentum massa justo sit amet risus.</p>
-                        <p><a className="btn btn-secondary" role="button">View details &raquo;</a></p>
-                    </div>
-                </div>
-
-                <hr />
-
-            </div> */}
 
         </main>
     );

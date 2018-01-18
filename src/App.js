@@ -6,6 +6,7 @@ import {
 
 import MainHeader from './components/MainHeader';
 import MainFooter from './components/MainFooter';
+import ScrollToTop from './components/ScrollToTop';
 import Homepage from './pages/Homepage';
 import AboutUs from './pages/AboutUs';
 import Capacity from './pages/Capacity';
@@ -14,6 +15,7 @@ import Impact from './pages/Impact';
 
 const App = () => (
   <Router>
+     <ScrollToTop>
     <div className="App">
 
       <MainHeader />
@@ -22,8 +24,9 @@ const App = () => (
       <Route exact path="/capacity" component={Capacity} />
       <Route exact path="/impact" component={Impact} />
 
-     <MainFooter />
+      <MainFooter />
     </div>
+    </ScrollToTop>
   </Router>
 );
 
