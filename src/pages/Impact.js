@@ -91,10 +91,10 @@ unique.</p>
                         <h3 className="display-4">Research Projects</h3>
                         <ul className="nav nav-pills">
                             <li className="nav-item">
-                                <a className="nav-link active" href="#">Ongoing</a>
+                                <Link to={{ search: '?sort=ongoing', }} className="nav-link active">Ongoing</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Past</a>
+                                <Link to={{ search: '?sort=past', }} className="nav-link">Past</Link>
                             </li>
 
                         </ul>
@@ -105,37 +105,23 @@ unique.</p>
 
                     <div className="col-6">
                         <div className="card mb-3">
-                            <div className="row">
-                                <div className="col-12 col-sm-6 col-md-4" style={{ display: 'block', backgroundImage: "url('http://via.placeholder.com/200x200')", backgroundSize: "cover", paddingBottom: "20%" }}>
+                            <div className="card-body">
+                                <Link to="/"><h5 className="card-title">The development of Invasion inhibition assay for vaccine screening of Plasmodium vivax</h5></Link>
 
-                                </div>
-                                <div className="col-12 col-sm-6 col-md-8">
-                                    <div className="card-body">
-                                        <h5 className="card-title">The development of Invasion inhibition assay for vaccine screening of Plasmodium vivax</h5>
-                                        <p className="card-text">Established high throughput invasion assay for in vitro vaccine screening of Plasmodium vivax. The optimized invasion assay will increase accuracy,
-                                        productivity, and throughput of the assay which will fasten the antimalarial drugs/vaccines discovery.</p>
-                                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div className="col-6">
                         <div className="card mb-3">
-                            <div className="row">
-                                <div className="col-12 col-sm-6 col-md-4" style={{ display: 'block', backgroundImage: "url('http://via.placeholder.com/200x200')", backgroundSize: "cover", paddingBottom: "20%" }}>
 
-                                </div>
-                                <div className="col-12 col-sm-6 col-md-8">
-                                    <div className="card-body">
-                                        <h5 className="card-title">Characterization of Plasmodium vivax gametocyte and its association with mosquito infectivity</h5>
-                                        <p className="card-text">Characterization of gametocyte development will lead to the discovery of the gametocyte markers which relate to the transmission of the parasite to
-                                        mosquito. These markers can be used to determine the level of contribution to transmission of reservoir populations as well as to support the development of transmission blocking vaccines/drugs.</p>
-                                        <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                                    </div>
-                                </div>
+                            <div className="card-body">
+                                <Link to="/"><h5 className="card-title">Characterization of Plasmodium vivax gametocyte and its association with mosquito infectivity</h5></Link>
+                                <p className="card-text">Characterization of gametocyte development will lead to the discovery of the gametocyte markers which relate to...</p>
+                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                             </div>
+
+
                         </div>
                     </div>
 
@@ -189,7 +175,7 @@ unique.</p>
                 <div className="row">
                     <div className="col-12">
                         <h3 className="display-4">Testimonials</h3>
-                        
+
                     </div>
                 </div>
                 <div className="row">
@@ -202,21 +188,21 @@ unique.</p>
                             </ol>
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <blockquote class="blockquote text-center py-5">
-                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                                    <blockquote className="blockquote text-center py-5">
+                                        <p className="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                        <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
                                     </blockquote>
                                 </div>
                                 <div className="carousel-item">
-                                <blockquote class="blockquote text-center py-5">
-                                        <p class="mb-0">Consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                                    <blockquote className="blockquote text-center py-5">
+                                        <p className="mb-0">Consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                        <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
                                     </blockquote>
                                 </div>
                                 <div className="carousel-item">
-                                <blockquote class="blockquote text-center py-5">
-                                        <p class="mb-0">Integer posuere erat a ante.</p>
-                                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                                    <blockquote className="blockquote text-center py-5">
+                                        <p className="mb-0">Integer posuere erat a ante.</p>
+                                        <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
                                     </blockquote>
                                 </div>
                             </div>

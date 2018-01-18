@@ -134,7 +134,7 @@ const Homepage = (props) => {
                             <li className="bg-warning list-news-grid__item list-news-grid__item--medium">
                                 <Link to="/" className="list-news-grid__link text-light">
                                     <div className="list-news-grid__img">
-                                        <img src="https://placeimg.com/640/480/nature" alt="Featured News" className="img-thumbnail" />
+                                        <img src="https://placeimg.com/640/480/people" alt="Featured News" className="img-thumbnail" />
                                     </div>
                                     <span className="list-news-grid__info ">
                                         <span className="list-news-grid__type">News</span>
