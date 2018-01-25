@@ -1,0 +1,22 @@
+/*  */
+
+
+.find-more-item:nth-child(2n-1) {
+    padding-left: 0;
+}
+
+.find-more-item:nth-child(2n) {
+    padding-right: 0;
+}
+
+.find-more-item_inner {
+    padding-bottom: 40%;
+    position:relative;
+}
+.find-more-item_inner > b {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}

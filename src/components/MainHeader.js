@@ -25,20 +25,18 @@ const MainHeader = (props) => {
           <div className="container">
             <ul className="navbar-nav justify-content-end">
               <li className="nav-item">
-                <NavLink to="/about-us" className="nav-link" >About Us <span className="sr-only">(current)</span></NavLink>
+                <NavLink to="/about-us" className="nav-link" >About<span className="sr-only">(current)</span></NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/capacity" className="nav-link">Our Capacity</NavLink>
+                <NavLink to="/capabilities" className="nav-link">Capabilities</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/impact" className="nav-link" >Impact</NavLink>
+                <NavLink to="/research" className="nav-link" >Research Spotlight</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/people" className="nav-link">People</NavLink>
+                <NavLink to="/people" className="nav-link">Team</NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink to="/careers" className="nav-link">Work &amp; Study</NavLink>
-              </li>
+              
               <li className="nav-item">
                 <NavLink to="/contact" className="nav-link">Contact Us</NavLink>
               </li>

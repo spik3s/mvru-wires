@@ -1,5 +1,5 @@
 import React from 'react';
-
+import FindMore from "../components/FindMore";
 
 const Publications = (props) => {
     return (
@@ -79,7 +79,7 @@ const Publications = (props) => {
                 <hr />
 
             </div>
-
+<FindMore />
         </main>
     );
 }

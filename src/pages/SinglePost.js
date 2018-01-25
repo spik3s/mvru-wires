@@ -1,7 +1,7 @@
 import React from "react";
 import FindMore from "../components/FindMore";
 
-const SingleStory = props => {
+const SinglePost = props => {
 	return (
 		<main role="main">
 			<div className="jumbotron mb-0">
@@ -30,7 +30,7 @@ const SingleStory = props => {
 						<p>
 							Our highly standardised insectary harbours
 							Anopheline mosquitoes for malaria research. With the
-							SingleStory to produce > 20,000 female An. dirus and
+							SinglePost to produce > 20,000 female An. dirus and
 							An. Minimum per week, we are always ready for
 							malaria vaccine testing, transmission studies, and
 							large scaled sporozoite production for drug
@@ -129,4 +129,4 @@ const SingleStory = props => {
 	);
 };
 
-export default SingleStory;
+export default SinglePost;

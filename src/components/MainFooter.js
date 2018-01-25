@@ -31,6 +31,9 @@ const MainFooter = (props) => {
                 <NavLink to="/publications" className="nav-link">Publications</NavLink>
               </li>
               <li className="nav-item">
+                <NavLink to="/students" className="nav-link">Students &amp; Alumni</NavLink>
+              </li>
+              <li className="nav-item">
                 <NavLink to="/careers" className="nav-link">Work &amp; Study</NavLink>
               </li>
               <li className="nav-item">

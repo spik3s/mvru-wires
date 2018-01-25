@@ -9,12 +9,14 @@ import MainFooter from './components/MainFooter';
 import ScrollToTop from './components/ScrollToTop';
 import Homepage from './pages/Homepage';
 import AboutUs from './pages/AboutUs';
-import Capacity from './pages/Capacity';
-import Impact from './pages/Impact';
+import Capabilities from './pages/Capabilities';
+import ResearchSpotlight from './pages/ResearchSpotlight';
 import People from './pages/People';
+import Students from './pages/Students';
 import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
 import Careers from './pages/Careers';
+import SingleJob from './pages/SingleJob';
 import Publications from './pages/Publications';
 import News from './pages/News';
 import SingleStory from './pages/SingleStory';
@@ -29,10 +31,12 @@ const App = () => (
       <Switch>
         <Route exact path="/" component={Homepage} />
         <Route exact path="/about-us" component={AboutUs} />
-        <Route exact path="/capacity" component={Capacity} />
-        <Route path="/impact/:id" component={SingleStory} />
-        <Route exact path="/impact" component={Impact} />
+        <Route exact path="/capabilities" component={Capabilities} />
+        <Route path="/research/:id" component={SingleStory} />
+        <Route exact path="/research" component={ResearchSpotlight} />
         <Route exact path="/people" component={People} />
+        <Route exact path="/students" component={Students} />
+        <Route exact path="/careers/:id" component={SingleJob} />
         <Route exact path="/careers" component={Careers} />
         <Route exact path="/faq" component={FAQ} />
         <Route exact path="/publications" component={Publications} />

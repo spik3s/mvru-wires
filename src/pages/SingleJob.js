@@ -1,7 +1,7 @@
 import React from "react";
 import FindMore from "../components/FindMore";
 
-const SingleStory = props => {
+const SingleJob = props => {
 	return (
 		<main role="main">
 			<div className="jumbotron mb-0">
@@ -9,7 +9,7 @@ const SingleStory = props => {
 					<div className="row justify-content-center">
 						<div className="col-8">
 							<h1 className="display-3">
-								STORY {props.match.params.id}
+								Job {props.match.params.id}
 							</h1>
 							<p>
 								This is a template for a simple marketing or
@@ -30,7 +30,7 @@ const SingleStory = props => {
 						<p>
 							Our highly standardised insectary harbours
 							Anopheline mosquitoes for malaria research. With the
-							SingleStory to produce > 20,000 female An. dirus and
+							SingleJob to produce > 20,000 female An. dirus and
 							An. Minimum per week, we are always ready for
 							malaria vaccine testing, transmission studies, and
 							large scaled sporozoite production for drug
@@ -129,4 +129,4 @@ const SingleStory = props => {
 	);
 };
 
-export default SingleStory;
+export default SingleJob;

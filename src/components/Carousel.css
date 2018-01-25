@@ -1,0 +1,21 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 30px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '\203A';
+  font-size: 55px;
+  color: darkGrey;
+}
+
+.carousel-control-prev-icon:after {
+  content: '\2039';
+  font-size: 55px;
+  color: darkGrey;
+}
