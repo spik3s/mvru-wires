@@ -7,51 +7,50 @@ const PostGrid = props => {
 		<div className="container bg-light py-3">
 				<div className="row no-gutters ">
 					<div className="col">
-
 						<ul className="list-news-grid ">
 							<li className="bg-warning list-news-grid__item list-news-grid__item--full">
 								<Link
-									to="/"
+									to="/research/research-spotlight-story"
 									className="list-news-grid__link text-light"
 								>
+
 									<div className="list-news-grid__img">
 										<img
-											src="https://placeimg.com/680/380/people"
+											src="http://via.placeholder.com/680x380"
 											alt="Featured News"
 											className="img-thumbnail"
 										/>
 									</div>
 									<span className="list-news-grid__info ">
-										<span className="list-news-grid__type">
-											News
+										<span className="list-news-grid__type  text-dark">
+											Research Spotlight
 										</span>
 										<b>
-											<h4 className="display-4">
-												Small but fast: a miniaturized
-												origami-inspired...
+											<h4 className="display-4 text-dark">
+												Research Spotlight headline
 											</h4>
 										</b>
+										<p className="text-dark">Summary of the article about the research spotlight story</p>
 										<i />
 									</span>
 								</Link>
 							</li>
 							<li className="bg-info  list-news-grid__item list-news-grid__item--small">
-								<Link to="/" className="list-news-grid__link">
+								<Link to="/news/news-article" className="list-news-grid__link">
 									<div className="list-news-grid__img">
 										<img
-											src="https://placeimg.com/320/240/nature"
+											src="http://via.placeholder.com/320x240"
 											alt="Featured News"
 											className="img-thumbnail"
 										/>
 									</div>
 									<span className="list-news-grid__info">
 										<span className="list-news-grid__type">
-											News
+											Post Category
 										</span>
 										<b className="display-4">
-											<h5 className="display-5">
-												Small but fast: a miniaturized
-												origami-inspired...
+											<h5 className="display-5 text-dark">
+												Another article headline
 											</h5>
 										</b>
 										<i />
@@ -69,12 +68,11 @@ const PostGrid = props => {
 									</div>
 									<span className="list-news-grid__info">
 										<span className="list-news-grid__type">
-											News
+											Post Category
 										</span>
 										<b className="display-4">
-											<h5 className="display-5">
-												Small but fast: a miniaturized
-												origami-inspired...
+											<h5 className="display-5 text-dark">
+												Latest news title
 											</h5>
 										</b>
 										<i />
@@ -92,12 +90,11 @@ const PostGrid = props => {
 									</div>
 									<span className="list-news-grid__info">
 										<span className="list-news-grid__type">
-											News
+											Post Category
 										</span>
 										<b className="display-4">
-											<h5 className="display-5">
-												Small but fast: a miniaturized
-												origami-inspired...
+											<h5 className="display-5 text-dark">
+												Article Headline
 											</h5>
 										</b>
 										<i />
@@ -115,12 +112,11 @@ const PostGrid = props => {
 									</div>
 									<span className="list-news-grid__info">
 										<span className="list-news-grid__type">
-											News
+											Post Category
 										</span>
 										<b className="display-4">
-											<h5 className="display-5">
-												Small but fast: a miniaturized
-												origami-inspired...
+											<h5 className="display-5 text-dark">
+												Article Headline
 											</h5>
 										</b>
 										<i />

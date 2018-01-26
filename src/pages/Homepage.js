@@ -5,6 +5,7 @@ import Jumbotron from "../components/Jumbotron";
 import CallToAction from "../components/CallToAction";
 import PostGrid from "../components/PostGrid";
 import CollaboratorsGrid from "../components/CollaboratorsGrid";
+import GreyBox from "../components/GreyBox";
 
 const Homepage = props => {
 	return (
@@ -15,16 +16,20 @@ const Homepage = props => {
 				contentAlign="justify-content-md-center"
 			>
 				<h1 className="display-3">
-					<span className="font-weight-bold">Real World</span>{" "}
-					Research
+					<span className="font-weight-bold">
+						Statement about what we do
+					</span>
 				</h1>
-				<p>
-					This is a template for a simple marketing or informational
-					website. It includes a large callout called a jumbotron and
-					three supporting pieces of content. Use it as a starting
-					point to create something more unique.
-				</p>
 			</Jumbotron>
+
+			<CallToAction
+				className="my-5"
+				text="Talk how capability support brand essence"
+				buttonLabel="Explore our capabilities &raquo;"
+				destination="/capabilities"
+			/>
+
+			<PostGrid />
 
 			{/* <div className="container">
                 <div className="row">
@@ -56,26 +61,15 @@ const Homepage = props => {
             </div> */}
 
 			<Jumbotron
-				className="mb-0 grad-right"
+				className="mb-0 mt-5 grad-right"
 				textAlign="text-left"
 				contentAlign="justify-content-md-start"
 			>
-				<h2 className="display-4">Access to real samples</h2>
+				<h2 className="display-4">Benefit 1</h2>
 				<p>
-					This is a template for a simple marketing or informational
-					website. It includes a large callout called a jumbotron and
-					three supporting pieces of content. Use it as a starting
-					point to create something more unique.
+					Short text presenting and introducing visitors to the benefits that collaborating with MVRU can bring to their organisation
 				</p>
-				<p>
-					<Link
-						to="/capacity"
-						className="btn btn-primary btn-lg"
-						role="button"
-					>
-						Learn more &raquo;
-					</Link>
-				</p>
+				
 			</Jumbotron>
 
 			<Jumbotron
@@ -83,22 +77,11 @@ const Homepage = props => {
 				textAlign="text-right"
 				contentAlign="justify-content-md-end"
 			>
-				<h2 className="display-4">Perfect Simulation</h2>
+				<h2 className="display-4">Benefit 2</h2>
 				<p>
-					This is a template for a simple marketing or informational
-					website. It includes a large callout called a jumbotron and
-					three supporting pieces of content. Use it as a starting
-					point to create something more unique.
+					Short text presenting and introducing visitors to the benefits that collaborating with MVRU can bring to their organisation
 				</p>
-				<p>
-					<Link
-						to="/"
-						className="btn btn-primary btn-lg"
-						role="button"
-					>
-						Learn more &raquo;
-					</Link>
-				</p>
+				
 			</Jumbotron>
 
 			<Jumbotron
@@ -106,41 +89,21 @@ const Homepage = props => {
 				textAlign="text-left"
 				contentAlign="justify-content-md-start"
 			>
-				<h2 className="display-4">Great Lab, experienced Staff</h2>
+				<h2 className="display-4">Benefit 3</h2>
 				<p>
-					This is a template for a simple marketing or informational
-					website. It includes a large callout called a jumbotron and
-					three supporting pieces of content. Use it as a starting
-					point to create something more unique.
+					Short text presenting and introducing visitors to the benefits that collaborating with MVRU can bring to their organisation
 				</p>
-				<p>
-					<Link
-						to="/"
-						className="btn btn-primary btn-lg"
-						role="button"
-					>
-						Learn more &raquo;
-					</Link>
-				</p>
+				
 			</Jumbotron>
 
 			<CallToAction
 				className="my-5"
-				text="Explore our Capabilities"
-				buttonLabel="Learn More &raquo;"
-				destination="/capabilities"
-			/>
-
-			<PostGrid />
-
-			<CollaboratorsGrid />
-
-            <CallToAction
-				className="my-5"
 				text="Get in touch!"
-				buttonLabel="Learn More &raquo;"
+				buttonLabel="Contact us &raquo;"
 				destination="/contact"
 			/>
+
+			<CollaboratorsGrid title="Funders &amp; Collaborators" count={9} />
 		</main>
 	);
 };

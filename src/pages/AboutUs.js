@@ -2,6 +2,8 @@ import React from "react";
 import FindMore from "../components/FindMore";
 import GreyBox from "../components/GreyBox";
 import CollaboratorsGrid from "../components/CollaboratorsGrid";
+import CollaboratorsList from "../components/CollaboratorsList";
+import CallToAction from "../components/CallToAction";
 
 const AboutUs = props => {
 	return (
@@ -117,44 +119,75 @@ const AboutUs = props => {
 					</div>
 					<div className="col-md-4">
 						<GreyBox marginBottom="1rem" />
-						<h3>Heading</h3>
+						<h3>Transmission Blocking Vaccines for P. vivax</h3>
 						<p>
-							Donec id elit non mi porta gravida at eget metus.
-							Fusce dapibus, tellus ac cursus commodo, tortor
-							mauris condimentum nibh, ut fermentum massa justo
-							sit amet risus. Etiam porta sem malesuada magna
-							mollis euismod. Donec sed odio dui.
+							To reduce the current burden of malaria and prevent
+							its reintroduction after elimination, transmission
+							blocking (TMB) vaccines can pay an important role.
+							These vaccines are aimed at preventing transmission
+							of malaria parasites from human to human through
+							mosquitoes. At MVRU, our mosquito facility is
+							optimised to support TMB vaccine development. Using
+							membrane feeding assays, we have tested many
+							candidates for TMB vaccines. Current research
+							programs are focused on new target discovery and
+							development of now vaccine platforms to induce
+							strong and long lasting immune response required to
+							block transmission.
 						</p>
 					</div>
+
 					<div className="col-md-4">
 						<GreyBox marginBottom="1rem" />
-						<h3>Research Areas</h3>
+						<h3>Invasion of erythrocytes</h3>
 						<p>
-							Donec id elit non mi porta gravida at eget metus.
-							Fusce dapibus, tellus ac cursus commodo, tortor
-							mauris condimentum nibh, ut fermentum massa justo
-							sit amet risus. Etiam porta sem malesuada magna
-							mollis euismod. Donec sed odio dui.
+							P. vivax invades reticulocytes, the young immature
+							erythrocytes. Understanding how the parasite
+							recognises these cells is key to devise
+							interventions that block blood infection. At MVRU,
+							we focus on a class of parasite adhesion proteins
+							called the reticulocyte binding proteins, with an
+							aim to elucidate their biological roles during
+							reticulocyte invasion and potential for vaccine
+							development.
 						</p>
 					</div>
+
 					<div className="col-md-4">
 						<GreyBox marginBottom="1rem" />
-						<h3>Heading</h3>
+						<h3>
+							Novel interventions to reduce malaria transmission
+						</h3>
 						<p>
-							Donec sed odio dui. Cras justo odio, dapibus ac
-							facilisis in, egestas eget quam. Vestibulum id
-							ligula porta felis euismod semper. Fusce dapibus,
-							tellus ac cursus commodo, tortor mauris condimentum
-							nibh, ut fermentum massa justo sit amet risus.
+							It is well known that residents of malaria endemic
+							areas can develop immunity against the disease.
+							Because of this, the vast majority of people who are
+							infected by malaria parasites are actually
+							asymptomatic. Research has shown that these
+							asymptomatic carriers are an important source of
+							transmission. Targeting these carriers is difficult
+							because it requires active surveillance with
+							sensitive but cost prohibitive molecular diagnosis.
+							To address this problem, MVRU is aiming to conduct a
+							novel mass drug administration (MDA) trial of
+							Ivermectin, a broad spectrum anti parasitic drug
+							shown to reduce mosquito’s ability to transmit
+							malaria. The target time line of MDA implementation
+							is 2018, the results of which will inform policy
+							makers about the potential of this tool for malaria
+							elimination.
 						</p>
 					</div>
 				</div>
 
-				<CollaboratorsGrid title="We have been funded by"/>
-				<CollaboratorsGrid />
-
-
-				<hr />
+				<CollaboratorsGrid title="We have been funded by" count={12} />
+				<CollaboratorsList count={6} />
+				<CallToAction
+					className="my-5"
+					text="Get in touch!"
+					buttonLabel="Learn More &raquo;"
+					destination="/contact"
+				/>
 			</div>
 			<FindMore />
 		</main>

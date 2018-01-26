@@ -1,87 +1,100 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
+import {
+	withScriptjs,
+	withGoogleMap,
+	GoogleMap,
+	Marker
+} from "react-google-maps";
 
+const Contact = props => {
+	return (
+		<main role="main">
+			<div className="jumbotron mb-0">
+				<div className="container text-center">
+					<div className="row justify-content-center">
+						<div className="col-8">
+							<h1 className="display-3">Contact</h1>
+						</div>
+					</div>
+				</div>
+			</div>
 
-const Contact = (props) => {
-    return (
-        <main role="main">
+			<div className="container my-5">
+				<div className="row justify-content-between">
+					<div className="col-8">
+						<h2>Get in touch with us</h2>
+						<p>
+							<strong>Mahidol Vivax Research Unit (MVRU)</strong>
+							<br />
+							3rd Floor 50th Anniversary Chalermprakiat Building,<br />
+							Faculty of Tropical Medicine, Mahidol University<br />
+							420/6 Ratchawithi Road, Rachathewi Bangkok 10400
+							Thailand<br />
+							Phone​ +66 2354 9100 ext. 2020, +66 23069187 Fax.
+							+66 2354 8051
+						</p>
 
-            <div className="jumbotron mb-0">
-                <div className="container text-center">
-                    <div className="row justify-content-center">
-                        <div className="col-8">
-                            <h1 className="display-3">Contact</h1>
-                            <p>This is a template for a simple marketing or informational website. It includes a large callout called a
-       jumbotron and three supporting pieces of content. Use it as a starting point to create something more
-       unique.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+						<p>
+							General information and enquiries :
+							wiyada.kun@mahidol.edu<br />
+							Support for MVRU research : jetsumon.pra@mahidol.ac.
+							th , wang.ngu@mahidol.edu , wanlapa.ros@mahidol.edu<br />
+							Logistic information : jrachaneeporn@gmail.com
+						</p>
+					</div>
 
+					<div className="col-3">
+						<h2>Questions?</h2>
+						<ul className="list-unstyled">
+							<li>
+								<Link to="/faq">
+									<h3>How can I apply for work at MVRU?</h3>
+								</Link>
+							</li>
+							<li>
+								<Link to="/faq">
+									<h3>How can I become a MVRU affiliate?</h3>
+								</Link>
+							</li>
+							<li>
+								<Link to="/faq">
+									<h3 />
+								</Link>
+							</li>
+						</ul>
+					</div>
+				</div>
 
-            <div className="container my-5">
-                <div className="row">
-                    <div className="col-12 col-md-6  px-5 my-3">
-                        <h2>Insectary</h2>
-                        <p>Our highly standardised insectary harbours Anopheline mosquitoes for malaria research. With the Contact to 
-                            produce > 20,000 female An. dirus and An. Minimum per week, we are always ready for malaria vaccine testing, 
-                            transmission studies, and large scaled sporozoite production for drug discovery projects. We have shipped our 
-                            infected mosquitoes domestically and internationally for malaria research and vaccine trails. Our staff have 
-                            provided guidance in setting up mosquito facilities worldwide.</p>
-                    </div>
+				<hr />
+			</div>
 
-                    <div className="col-12 col-md-6  px-5 my-3">
-                        <h2>Access to Vivax-infected blood</h2>
-                        <p>Because P. vivax cannot be maintained and propagated in culture, malaria patients or infected carriers are the 
-                            only sources of live parasites for research. Working with malaria clinic and local hospitals, we have established 
-                            access to patients in endemic areas throughout Thailand. Since 2011, our teams have been deployed to the 
-                            Thai-Myanmar, Thai Cambodian, and Southern regions to collect fresh parasites. With the technical and logistical 
-                            knowhow, we have achieved and can provide reliable mosquito infection and short-term blood stage parasite culture 
-                            for malaria research.</p>
-                    </div>
-
-                    <div className="col-12 col-md-6  px-5 my-3">
-                        <h2>Platform for testing new malaria diagnostics</h2>
-                        <p>With access to malaria endemic populations, parasite culture, and a large archived of blood/plasma samples, 
-                            we are always poised for testing new malaria diagnostics. Expert microscopy (decades of experience), qPCR, 
-                            and nested PCR are our routine benchmarks for malaria assay validation. Our staff are also highly trained 
-                            in LAMP and RDT for on-site testings.</p>
-                    </div>
-
-                    <div className="col-12 col-md-6  px-5 my-3">
-                        <h2>Advanced Malaria Diagnosis</h2>
-                        <p>We are highly experienced in malaria diagnosis. With expert microscopy, RDT, nested PCR, qPCR, qRT-PCR and LAMPs, 
-                            we provide reference quality answers to malaria infection regardless of the method of sample collection. Our 
-                            Qiagen-Tropmed lab at the Faculty of Tropical Medicine in Bangkok houses a high throughput automated system for 
-                            large scaled epidemiological surveys. Thousands of blood samples can be analysed in days. This facility is an 
-                            important part of our current ambition to eliminate malaria.</p>
-                    </div>
-
-                    <div className="col-12 col-md-6  px-5 my-3">
-                        <h2>Field Research</h2>
-                        <p>Field studies are necessary for closing the knowledge gap in malaria epidemiology and transmission. With over 30 
-                            years of experience in conducing field studies in Thailand, we have tackled and handled logistical and ethical 
-                            challenges in various research activities. Different protocols - cross sectional surveys, cohort studies, passive 
-                            case detections, follow ups, human landing capture of mosquitoes - have been successfully implemented in various 
-                            sites in the country.</p>
-                    </div>
-
-                    <div className="col-12 col-md-6  px-5 my-3">
-                        <h2>Field Laboratories</h2>
-                        <p>Our field laboratories are situated in the midst of Thailand’s endemic areas. They offer unique opportunities to 
-                            experiment with live P. vivax parasites.  These labs enable short-term in vitro culture, sophisticate sample 
-                            processing, and mosquito infection experiments.  They are excellent teaching grounds for students and great 
-                            retreat sites for investigators!</p>
-                    </div>
-
-                </div>
-
-                <hr />
-
-            </div>
-
-        </main>
-    );
-}
+			
+						<MyMapComponent
+							isMarkerShown
+							googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
+							loadingElement={<div style={{ height: `100%` }} />}
+							containerElement={
+								<div className="my-5" style={{ height: `500px` }} />
+							}
+							mapElement={<div style={{ height: `100%` }} />}
+						/>
+		
+		</main>
+	);
+};
 
 export default Contact;
+
+const MyMapComponent = withScriptjs(
+	withGoogleMap(props => (
+		<GoogleMap
+			defaultZoom={17}
+			defaultCenter={{ lat: 13.7655, lng: 100.5342 }}
+		>
+			{props.isMarkerShown && (
+				<Marker position={{ lat: 13.7655, lng: 100.5342 }} />
+			)}
+		</GoogleMap>
+	))
+);

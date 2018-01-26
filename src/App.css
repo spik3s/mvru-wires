@@ -1,3 +1,7 @@
 .jumbotron {
     border-radius: 0;
 }
+
+main {
+    padding-top: 56px;
+}

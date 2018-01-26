@@ -9,7 +9,7 @@ const SinglePost = props => {
 					<div className="row justify-content-center">
 						<div className="col-8">
 							<h1 className="display-3">
-								STORY {props.match.params.id}
+								{props.match.params.id}
 							</h1>
 							<p>
 								This is a template for a simple marketing or
