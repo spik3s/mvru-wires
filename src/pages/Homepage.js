@@ -17,7 +17,7 @@ const Homepage = props => {
 			>
 				<h1 className="display-3">
 					<span className="font-weight-bold">
-						Statement about what we do
+						Statementsss about what we do
 					</span>
 				</h1>
 			</Jumbotron>
