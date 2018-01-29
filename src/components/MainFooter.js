@@ -48,7 +48,7 @@ const MainFooter = (props) => {
 
         <div className="row justify-content-between align-items-center" >
           <div className="col-6 text-left" >
-            <img src="http://via.placeholder.com/200x200" style={{maxHeight: "60px"}} alt="Featured News" className="d-inline img-thumbnail rounded-circle mr-3 my-3" />
+            <img src="https://via.placeholder.com/200x200" style={{maxHeight: "60px"}} alt="Featured News" className="d-inline img-thumbnail rounded-circle mr-3 my-3" />
             <h4 className="d-inline">Mahidol University</h4>
           </div>
           <div className="col-6">

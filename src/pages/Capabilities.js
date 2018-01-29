@@ -18,12 +18,12 @@ const Capacity = props => {
 				<div className="row justify-content-between">
 					<div className="col-5">
 						<img
-							src="http://via.placeholder.com/600x500"
+							src="https://via.placeholder.com/600x500"
 							alt="Capability"
 							className="img-thumbnail mb-4 w-100"
 						/>
 						<img
-							src="http://via.placeholder.com/600x500"
+							src="https://via.placeholder.com/600x500"
 							alt="Capability"
 							className="img-thumbnail w-100"
 						/>
@@ -99,12 +99,12 @@ const Capacity = props => {
 				<div className="row justify-content-between">
 					<div className="col-5">
 						<img
-							src="http://via.placeholder.com/600x500"
+							src="https://via.placeholder.com/600x500"
 							alt="Capability"
 							className="img-thumbnail mb-4 w-100"
 						/>
 						<img
-							src="http://via.placeholder.com/600x500"
+							src="https://via.placeholder.com/600x500"
 							alt="Capability"
 							className="img-thumbnail w-100"
 						/>
@@ -180,12 +180,12 @@ const Capacity = props => {
 				<div className="row justify-content-between">
 					<div className="col-5">
 						<img
-							src="http://via.placeholder.com/600x500"
+							src="https://via.placeholder.com/600x500"
 							alt="Capability"
 							className="img-thumbnail mb-4 w-100"
 						/>
 						<img
-							src="http://via.placeholder.com/600x500"
+							src="https://via.placeholder.com/600x500"
 							alt="Capability"
 							className="img-thumbnail w-100"
 						/>

@@ -9,7 +9,7 @@ const CollaboratorsGrid = props => {
 				className="col-6 col-sm-4 col-md-3 col-lg-2"
 			>
 				<img
-					src="http://via.placeholder.com/200x100"
+					src="https://via.placeholder.com/200x100"
 					alt={"Collaborator " + (i + 1)}
 					className="img-thumbnail m-md-3 my-3"
 				/>

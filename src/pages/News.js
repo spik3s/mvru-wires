@@ -14,7 +14,7 @@ const News = props => {
 						style={{
 							display: "block",
 							backgroundImage:
-								"url('http://via.placeholder.com/200x200')",
+								"url('https://via.placeholder.com/200x200')",
 							backgroundSize: "cover",
 							paddingBottom: "25%"
 						}}

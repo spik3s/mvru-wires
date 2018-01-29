@@ -16,7 +16,7 @@ const PostGrid = props => {
 
 									<div className="list-news-grid__img">
 										<img
-											src="http://via.placeholder.com/680x380"
+											src="https://via.placeholder.com/680x380"
 											alt="Featured News"
 											className="img-thumbnail"
 										/>
@@ -39,7 +39,7 @@ const PostGrid = props => {
 								<Link to="/news/news-article" className="list-news-grid__link">
 									<div className="list-news-grid__img">
 										<img
-											src="http://via.placeholder.com/320x240"
+											src="https://via.placeholder.com/320x240"
 											alt="Featured News"
 											className="img-thumbnail"
 										/>
@@ -61,7 +61,7 @@ const PostGrid = props => {
 								<Link to="/" className="list-news-grid__link">
 									<div className="list-news-grid__img">
 										<img
-											src="http://via.placeholder.com/300x200"
+											src="https://via.placeholder.com/300x200"
 											alt="Featured News"
 											className="img-thumbnail"
 										/>
@@ -83,7 +83,7 @@ const PostGrid = props => {
 								<Link to="/" className="list-news-grid__link">
 									<div className="list-news-grid__img">
 										<img
-											src="http://via.placeholder.com/300x200"
+											src="https://via.placeholder.com/300x200"
 											alt="Featured News"
 											className="img-thumbnail"
 										/>
@@ -105,7 +105,7 @@ const PostGrid = props => {
 								<Link to="/" className="list-news-grid__link">
 									<div className="list-news-grid__img">
 										<img
-											src="http://via.placeholder.com/300x200"
+											src="https://via.placeholder.com/300x200"
 											alt="Featured News"
 											className="img-thumbnail"
 										/>

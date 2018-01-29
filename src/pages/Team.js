@@ -13,7 +13,7 @@ const Team = props => {
 						style={{
 							display: "block",
 							backgroundImage:
-								"url('http://via.placeholder.com/200x200')",
+								"url('https://via.placeholder.com/200x200')",
 							backgroundSize: "cover",
 							paddingBottom: "20%"
 						}}
@@ -60,7 +60,7 @@ const Team = props => {
 							style={{
 								display: "block",
 								backgroundImage:
-									"url('http://via.placeholder.com/200x200')",
+									"url('https://via.placeholder.com/200x200')",
 								backgroundSize: "cover",
 								paddingBottom: "20%"
 							}}
