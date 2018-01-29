@@ -1,6 +1,14 @@
 import React from 'react';
 import { withRouter } from 'react-router'
 
+/**
+ * Wrapping component that scrolls to the top of page on route change
+ * 
+ * @class ScrollToTop
+ * @extends {React.Component}
+ */
+
+ 
 class ScrollToTop extends React.Component {
     componentDidUpdate(prevProps) {
       if (this.props.location.pathname !== prevProps.location.pathname) {
