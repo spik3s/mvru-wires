@@ -6,7 +6,6 @@ import {
 import "./App.css";
 import MainHeader from './components/MainHeader';
 import MainFooter from './components/MainFooter';
-import ScrollToTop from './components/ScrollToTop';
 import Homepage from './pages/Homepage';
 import AboutUs from './pages/AboutUs';
 import Capabilities from './pages/Capabilities';
@@ -24,8 +23,7 @@ import SingleStory from './pages/SingleStory';
 
 
 const App = () => (
-  <Router>
-     <ScrollToTop>
+  
     <div className="App">
 
       <MainHeader />
@@ -49,8 +47,7 @@ const App = () => (
 
       <MainFooter />
     </div>
-    </ScrollToTop>
-  </Router>
+   
 );
 
 
