@@ -6,7 +6,7 @@ const Team = props => {
 	var itemsLeaders = [];
 	for (var i = 0; i < (props.count || 3); i++) {
 		itemsLeaders.push(
-			<div className="card mb-3">
+			<div className="card mb-3" key={"news-"+i}>
 				<div className="row">
 					<div
 						className="col-12 col-sm-6 col-md-3"
@@ -36,10 +36,10 @@ const Team = props => {
 								little bit longer.
 							</p>
 							<p className="card-text">Contact details</p>
-							<a href="/" class="card-link">
+							<a href="/" className="card-link">
 								Publications
 							</a>
-							<a href="/" class="card-link">
+							<a href="/" className="card-link">
 								Other kind of a link
 							</a>
 						</div>
@@ -50,9 +50,9 @@ const Team = props => {
 	}
 
 	var smallItems = [];
-	for (var i = 0; i < (props.count || 12); i++) {
+	for (var ix = 0; ix < (props.count || 12); ix++) {
 		smallItems.push(
-			<div className="col-6 mb-3">
+			<div className="col-6 mb-3" key={"card-"+ix}>
 				<div className="card ">
 					<div className="row">
 						<div
@@ -83,10 +83,10 @@ const Team = props => {
 									little bit longer.
 								</p>
 								<p className="card-text">Contact details</p>
-								<a href="/" class="card-link">
+								<a href="/" className="card-link">
 									Publications
 								</a>
-								<a href="/" class="card-link">
+								<a href="/" className="card-link">
 									Other kind of a link
 								</a>
 							</div>
@@ -118,19 +118,19 @@ const Team = props => {
 			<div className="container my-3">
 				<div className="row">
 					<div className="col">
-						<ul class="nav nav-pills  nav-fill">
-							<li class="nav-item">
-								<a class="nav-link active" href="#leaders">
+						<ul className="nav nav-pills  nav-fill">
+							<li className="nav-item">
+								<a className="nav-link active" href="#leaders">
 									Team Leaders
 								</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#second">
+							<li className="nav-item">
+								<a className="nav-link" href="#second">
 									Second Group
 								</a>
 							</li>
-							<li class="nav-item disabled">
-								<a class="nav-link disabled" href="#">
+							<li className="nav-item disabled">
+								<a className="nav-link disabled" href="#third">
 									Third Group
 								</a>
 							</li>
@@ -152,7 +152,7 @@ const Team = props => {
 						<hr />
 					</div>
 				</div>
-				<a  id="second"></a>
+				<a id="second"></a>
 				<div className="row">
 					<div className="col-12">
 						<h2>Second Group</h2>

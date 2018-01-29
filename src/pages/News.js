@@ -61,17 +61,17 @@ const News = props => {
 					<div className="col">
 						<ul class="nav nav-pills  nav-fill">
 							<li class="nav-item">
-								<a class="nav-link active" href="#">
+								<a class="nav-link active" href="/">
 									All
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">
+								<a class="nav-link" href="/">
 									Category 1
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">
+								<a class="nav-link" href="/">
 									Category 2
 								</a>
 							</li>

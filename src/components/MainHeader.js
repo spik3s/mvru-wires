@@ -59,7 +59,7 @@ const MainHeader = props => {
 
 export default MainHeader;
 
-{
+// {
 	/* <header className="masthead fixed-top bg-white">
 <div className="container">
   <div className="row justify-content-between align-items-center" >
@@ -107,7 +107,7 @@ export default MainHeader;
                 <a className="dropdown-item" href="#">Something else here</a>
               </div>
             </li> */
-}
+// }
 //       </ul>
 //     </div>
 //   </div>

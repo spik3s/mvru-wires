@@ -1,11 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Homepage.css";
 import Jumbotron from "../components/Jumbotron";
 import CallToAction from "../components/CallToAction";
 import PostGrid from "../components/PostGrid";
 import CollaboratorsGrid from "../components/CollaboratorsGrid";
-import GreyBox from "../components/GreyBox";
 
 const Homepage = props => {
 	return (

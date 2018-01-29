@@ -59,7 +59,7 @@ const Contact = props => {
 							</li>
 							<li>
 								<Link to="/faq">
-									<h3 />
+								
 								</Link>
 							</li>
 						</ul>
